@@ -21,8 +21,8 @@ def scanconfluence(confluencespace,startpage,pagelimit,regex,scanfolder,reportfo
 
 class EssexHog(object):
     def __init__(self):
-        self.user = "jira-user"
-        self.pw = "jira-pw"
+        self.user = "confluence-user"
+        self.pw = "confluence-pw"
         self.confluenceurl = "confluence.de"
 
     def mergejson(self, scanfolder, reportfolder):
